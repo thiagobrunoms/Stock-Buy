@@ -1,7 +1,7 @@
 import 'bundle.dart';
 
 class BundlePiece extends Bundle {
-  BundlePiece({required super.name, required super.minimum, required super.quantityInStock});
+  BundlePiece({required name, required minimum, required quantityInStock}) : super(name: name, minimum: minimum, quantityInStock: quantityInStock);
 
   @override
   double getMaxPossibilities() {

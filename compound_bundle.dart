@@ -3,7 +3,7 @@ import 'bundle.dart';
 class CompoundBundle extends Bundle {
   final List<Bundle> bundles = [];
 
-  CompoundBundle({required super.name, super.minimum = 0, super.quantityInStock = 0});
+  CompoundBundle({required name, minimum = 0, quantityInStock = 0}) : super(name: name, minimum: minimum, quantityInStock: quantityInStock);
 
   void addBundle(Bundle bundle) {
     bundles.add(bundle);

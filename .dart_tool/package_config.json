@@ -1,0 +1,14 @@
+{
+  "configVersion": 2,
+  "packages": [
+    {
+      "name": "StockAndBuy",
+      "rootUri": "../",
+      "packageUri": "lib/",
+      "languageVersion": "2.15"
+    }
+  ],
+  "generated": "2022-10-30T16:48:33.752066Z",
+  "generator": "pub",
+  "generatorVersion": "2.17.3"
+}

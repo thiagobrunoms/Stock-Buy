@@ -1,0 +1,9 @@
+name: StockAndBuy
+version: 1.2.3
+
+environment:
+  sdk: '>=2.15.0 <3.0.0'
+  
+dependencies:
+  
+dev_dependencies:
